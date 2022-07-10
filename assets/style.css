@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* start header styling */
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: green;
+}
+
+header nav {
+    margin: 7px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align align-items: cetner;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font: lighter;
+    font-size: 2vw;
+}
+
+/* end header styling */
