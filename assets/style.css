@@ -6,6 +6,15 @@
 
 
 /* start header styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    
+}
+
+
 header h1 {
     font-weight: bold;
     margin: 0;
@@ -26,13 +35,19 @@ header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align align-items: cetner;
+    align align-items: center;
+    list-style: none;
+
 }
 
 header nav ul li a {
     padding: 10px 15px;
     font: lighter;
     font-size: 2vw;
+}
+
+nav {
+    display: block;
 }
 
 /* end header styling */
