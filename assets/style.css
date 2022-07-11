@@ -1,3 +1,7 @@
+/* font-family: 'Crimson Text', serif;
+font-family: 'Taviraj', serif; */
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,8 +14,11 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 35px;
-    
+    padding: 30px 45px;
+    background-image: url(./images/parrish-freeman-vEkzfO1WpnI-unsplash.jpg);
+    background-position: center;
+    background-position: 60em;
+    background-size: cover;
 }
 
 
@@ -19,12 +26,12 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 40px;
-
 }
 
 header a {
     text-decoration: none;
-    color: green;
+    color: rgb(170, 223, 36);
+    font-family: 'Crimson Text', Serif;
 }
 
 header nav {
@@ -37,7 +44,6 @@ header nav ul {
     justify-content: space-between;
     align align-items: center;
     list-style: none;
-
 }
 
 header nav ul li a {
@@ -46,8 +52,29 @@ header nav ul li a {
     font-size: 2vw;
 }
 
-nav {
-    display: block;
+/* end header styling */
+
+.intro {
+    padding: 10px 15px;
+    text-align: center;
 }
 
-/* end header styling */
+.intro h2 {
+    text-align: center;
+    font-family: 'Crimson Text', Serif;
+    color: rgb(0, 128, 81); 
+    padding: 5%
+}
+
+.intro p {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+.intro img {
+    width: 35%;
+    margin: auto;
+    padding: 15px;
+}
