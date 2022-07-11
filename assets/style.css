@@ -23,9 +23,10 @@ header {
 
 
 header h1 {
-    font-weight: bold;
-    margin: 0;
+    /* margin: 0; */
     font-size: 40px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 header a {
@@ -50,6 +51,7 @@ header nav ul li a {
     padding: 10px 15px;
     font: lighter;
     font-size: 2vw;
+    -webkit-text-size-adjust: none;
 }
 
 /* end header styling */
@@ -57,7 +59,7 @@ header nav ul li a {
 .intro {
     padding: 10px 15px;
     text-align: center;
-    background-color: rgba(18, 148, 188, 0.168);
+    background-image: url(./images/parrish-freeman-vEkzfO1WpnI-unsplash.jpg);
 }
 
 .intro h2 {
@@ -71,13 +73,14 @@ header nav ul li a {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
+    color: #fff;
 }
 
 
 .intro img {
     width: 20%;
     margin: 0 auto;
-    position: ab;
+    position: relative;
     border: 1px solid black;
     border-radius: 10px;
 }
