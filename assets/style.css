@@ -8,7 +8,6 @@ font-family: 'Taviraj', serif; */
     padding: 0;
   }
 
-
 /* start header styling */
 
 header {
@@ -82,5 +81,5 @@ header nav ul li a {
     margin: 0 auto;
     position: relative;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
 }
