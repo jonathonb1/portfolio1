@@ -147,4 +147,12 @@ header nav ul li a {
     border: 2px solid yellow;
     border-radius: 20px;
     height: 300px;
+    transition: .2s;
+}
+
+.work img:hover {
+    opacity: .7;
+    transform: scale(1.5);
+    
+    
 }
