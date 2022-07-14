@@ -30,6 +30,8 @@ header h1 {
     font-size: 36px;
 }
 
+
+
 header a {
     text-decoration: none;
     color: rgb(170, 223, 36);
@@ -120,6 +122,15 @@ header nav ul li a {
 
 /* my work styling start */
 
+.work {
+    background-image: url(./images/parrish-freeman-vEkzfO1WpnI-unsplash.jpg)
+}
+
+.projlink {
+    display: flex;
+    justify-content: center;
+}
+
 .work h2 {
     text-align: center;
     font-size: 50px;
@@ -127,3 +138,13 @@ header nav ul li a {
     color: rgb(0, 128, 81); 
 }
 
+.work p {
+    color: white;
+}
+
+
+.work img {
+    border: 2px solid yellow;
+    border-radius: 20px;
+    height: 300px;
+}
