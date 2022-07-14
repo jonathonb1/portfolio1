@@ -176,6 +176,7 @@ header nav ul li a {
 /* contact info start */
 
 .contact-info {
+    padding: 30px;
     background-image: url(./images/parrish-freeman-vEkzfO1WpnI-unsplash.jpg);
 }
 
@@ -190,12 +191,17 @@ header nav ul li a {
 .contact-info p {
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 
 .contact-info address {
     color: white;
     font-size: 20px;
     text-align: center;
+}
+
+.contact-info address a {
+    color: rgb(0, 128, 81); 
 }
 
 /* contact info end */
