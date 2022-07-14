@@ -53,8 +53,8 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2em
-    
+    font-size: 2em;
+    text-decoration: underline;
 }
 
 /* end header styling */
@@ -75,6 +75,7 @@ header nav ul li a {
     color: rgb(0, 128, 81); 
     margin: 0 auto;
     font-size: 50px;
+    text-decoration: underline;
 }
 
 .intro p {
@@ -108,6 +109,7 @@ header nav ul li a {
     font-size: 50px;
     font-family: 'Crimson Text', Serif;
     color: rgb(0, 128, 81); 
+    text-decoration: underline;
 }
 
 .skills ul li {
@@ -129,6 +131,7 @@ header nav ul li a {
 .projlink {
     display: flex;
     justify-content: center;
+    justify-content: space-around;
 }
 
 .work h2 {
@@ -136,6 +139,7 @@ header nav ul li a {
     font-size: 50px;
     font-family: 'Crimson Text', Serif;
     color: rgb(0, 128, 81); 
+    text-decoration: underline;
 }
 
 .work p {
@@ -155,7 +159,21 @@ header nav ul li a {
     transform: scale(1.5);
 }
 
+.projlink2 img {
+    display: flex;
+    height: 200px;
+}
+
+.work-flex {
+    display: flex;
+    justify-content: space-evenly;
+    pad: 30px;
+    justify-content: center;
+}
 /* my work styling end */
+
+
+/* contact info start */
 
 .contact-info {
     background-image: url(./images/parrish-freeman-vEkzfO1WpnI-unsplash.jpg);
@@ -166,6 +184,7 @@ header nav ul li a {
     font-size: 50px;
     font-family: 'Crimson Text', Serif;
     color: rgb(0, 128, 81); 
+    text-decoration: underline;
 }
 
 .contact-info p {
@@ -179,6 +198,7 @@ header nav ul li a {
     text-align: center;
 }
 
+/* contact info end */
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
