@@ -11,21 +11,23 @@ font-family: 'Taviraj', serif; */
 /* start header styling */
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 45px;
+    background-size: cover;
     background-image: url(./images/parrish-freeman-vEkzfO1WpnI-unsplash.jpg);
     background-position: center;
     background-position: 60em;
     background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 45px;
+    flex-wrap: wrap;
+    top: 0;
 }
 
 
 header h1 {
-    /* margin: 0; */
-    font-size: 40px;
-    display: flex;
-    flex-wrap: nowrap;
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
 }
 
 header a {
@@ -35,30 +37,34 @@ header a {
 }
 
 header nav {
-    margin: 7px;
+    margin: 7px 0;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align align-items: center;
+    align-items: center;
     list-style: none;
 }
 
 header nav ul li a {
     padding: 10px 15px;
-    font: lighter;
+    font-weight: lighter;
     font-size: 2vw;
     -webkit-text-size-adjust: none;
 }
 
 /* end header styling */
 
+
+/* About me styling */
 .intro {
     padding: 10px 15px;
     text-align: center;
     background-image: url(./images/parrish-freeman-vEkzfO1WpnI-unsplash.jpg);
+    display: flex;
+    flex-direction: column;
 }
 
 .intro h2 {
@@ -66,13 +72,16 @@ header nav ul li a {
     font-family: 'Crimson Text', Serif;
     color: rgb(0, 128, 81); 
     margin: 0 auto;
+    font-size: 50px;
 }
 
 .intro p {
+    font-size: 25px;
     text-align: center;
-    padding: 10px;
-    margin: 0 auto;
-    color: #fff;
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(39, 1, 1);
+    color: white;
 }
 
 
@@ -82,4 +91,27 @@ header nav ul li a {
     position: relative;
     border: 1px solid black;
     border-radius: 15px;
+}
+/* end about me styling */
+
+/* skills styling */
+
+.skills {
+    background-image: url(./images/parrish-freeman-vEkzfO1WpnI-unsplash.jpg);
+    padding: 25px;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Crimson Text', Serif;
+    color: rgb(0, 128, 81); 
+}
+
+.skills ul li {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
 }
