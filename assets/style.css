@@ -223,16 +223,11 @@ header nav ul li a {
         font-size: 20px;
   }
   }
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  MEDIA QUERY FOR TABLETS AND SMALLER
   @media screen and (max-width: 768px) {
     header {
         width: 100%;
       }
-.intro p {
-    width: 50%;
-    padding: 20px;
-}
-
   }
 
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
