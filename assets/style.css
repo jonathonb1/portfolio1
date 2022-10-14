@@ -160,6 +160,13 @@ header nav ul li a {
     height: 200px;
 }
 
+.feddit {
+    display: flex;
+        justify-content: space-evenly;
+        pad: 30px;
+        justify-content: center;
+}
+
 .work-flex {
     display: flex;
     justify-content: space-evenly;
